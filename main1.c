@@ -2,10 +2,8 @@
 
 int main(void) {
   char str[] = "hello";
-  int i;
-  for (i = 0; i < 5; i++) {
-    printf("%d", str[i]);
-  }
+
+  printf("%s", str);
 
   return 0;
 }
